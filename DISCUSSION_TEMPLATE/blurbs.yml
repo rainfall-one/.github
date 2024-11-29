@@ -1,5 +1,10 @@
 body:
-- type: markdown
-    attributes:
-      value: |
-       <a href="./">Go Back</a>
+- type: textarea
+  id: content
+  attributes:
+    label: Content
+    description: "Add your content here..."
+    value: |
+    <a href="./">Go Back</a>
+  validations:
+    required: true
