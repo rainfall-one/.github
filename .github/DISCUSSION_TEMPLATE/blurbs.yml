@@ -4,7 +4,6 @@ body:
     attributes:
       label: Content
       description: "Add your content here..."
-      value: |
-      <a href="./">Go Back</a>
+      value: <a href="./">Go Back</a>
     validations:
       required: true
